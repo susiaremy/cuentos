@@ -3,21 +3,67 @@
 <head>
     
     <title>Mi primera web</title>
+    <style>
+        table, th, td  {
+            border: 1px solid black;
+            
+        }
+    </style>
 </head>
 <body>
-    <form>
+    <table style="width:500px;"
+        thead
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>hola beats</td>
+            <td>gratis</td>
+        </tr>
+        <tr>
+            <td>cuento</td>
+            <td>Total 149,90$</td>
+        </tr>
+        <tr>
+            <td>coleccion de cuentos</td>
+            <td>Total 499.90$</td>
+        </tr>
+    </table>
+    <!-- ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+
+
+    </ul>
+    <!-- ol es lista  ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        
+
+    <form action="/formulario" method="POST">
         <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="nombre"/>
+        <input value="chanchito"type="text" id="nombre" name="nombre" placeholder="nombre"/>
         <br>
         <label for="Apellido">Apellido</label>
-        <input type="text" id="Apellido" name="Apellido" placeholder="apellido"/>
+        <input value="feliz" type="text" id="Apellido" name="Apellido" placeholder="apellido"/>
         <br>
         <label for="comentario">Comentario</label>
-        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+        <textarea escols="50" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario">"este es un valor por defecto"</textarea>
+        <br>
+        <button type="button">tipo boton></button>
+        <button type="reset">tipo reset></button>
+        <button type="submit">tipo submit</button>
     </form>
-    <h1>Cuento de Caperucita Roja</h1>
+    <h1>Cuento de Caperucita Roja </h1>
     <h2>Cuento de Caperucita Roja </h2>
-    <h3>Cuento de Caperucita Roja</h3>
+    <h3>Cuento de Caperucita Roja </h3>
     <h4>Cuento de Caperucita Roja </h4>
     <h5>Cuento de Caperucita Roja </h5>
     <h6>Cuento de Caperucita Roja </h6>
